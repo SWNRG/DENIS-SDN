@@ -1,4 +1,4 @@
-# CORAL-SDN Infrastructure plane protocol
+# CORAL-SDN Infrastructure plane protocol adapted to work with DENIS-SDN Controller
 
 
 **coral_br.c** for Border Router
