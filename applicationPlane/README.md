@@ -35,3 +35,11 @@ highlighting regions with high node density. It enables
 administrators to quickly identify areas of concentrated
 nodes, aiding in network analysis, capacity planning, and
 identifying potential congestion points.
+
+__Connectivity Detector (CODET)__ component is a network administration tool that operates at the Application-layer. Its
+primary responsibility is to ensure the minimum connectivity requirements are met within each slice by verifying that every
+node has at least one viable path connecting it to the border router. 
+The administrator employs CODET during the initial phase of network slice configuration to ensure the
+successful connectivity of each slice. Moreover, DENIS-SDN uses CODET in real-time to perform periodic checks on each
+network slice to detect potential communication disruptions due to malfunctions. These checks occur every 10 min by default, or the network administrator can customize the
+interval through the list box.
